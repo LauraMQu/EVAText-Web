@@ -267,33 +267,6 @@ Configura la compilación local y de producción.
 6. Cuando esté validado, ejecuta `npm run build`.
 7. Sube nuevamente el contenido actualizado de `dist` al repositorio publicado.
 
-## Actualización de GitHub Pages
-
-1. Ejecuta `npm run build`.
-2. Abre la carpeta `dist`.
-3. Selecciona todo su contenido.
-4. Sube los archivos a la raíz del repositorio `EVAText-Web`.
-5. Reemplaza los archivos anteriores.
-6. Crea un nuevo commit.
-7. Espera a que GitHub Pages termine de publicar.
-
-La dirección pública no cambia.
-
-## Iconos
-
-Los iconos se encuentran en `assets/`:
-
-```text
-icon-16.png
-icon-32.png
-icon-64.png
-icon-80.png
-icon-128.png
-logo-filled.png
-```
-
-Los nombres deben conservarse para que el manifiesto pueda encontrarlos.
-
 ## Solución de problemas
 
 ### El panel intenta conectarse a `localhost:3000`
@@ -312,21 +285,11 @@ Es normal. EVAText está diseñado para ejecutarse dentro de Word.
 
 Cierra Word completamente y vuelve a abrirlo. Si continúa, elimina el complemento anterior desde **Mis complementos** y carga nuevamente el manifiesto correcto.
 
-### El cambio no aparece en GitHub Pages
-
-Comprueba que:
-
-- Subiste el contenido de `dist`.
-- Los archivos estén en la raíz del repositorio.
-- GitHub Pages use la rama `main` y la carpeta `/(root)`.
-- El despliegue haya terminado correctamente.
-
 ### La cuenta institucional no permite cargar el complemento
 
 Prueba con una cuenta personal o solicita al administrador que permita o distribuya el complemento.
 
-## Seguridad y privacidad
-
+## Seguridad
 EVAText:
 
 - No requiere un instalador ejecutable.
@@ -334,38 +297,76 @@ EVAText:
 - Solicita permiso de lectura y escritura sobre el documento para insertar comentarios.
 - No debe recopilar información personal ni enviar el contenido del documento a servicios externos, salvo que en el futuro se agregue expresamente alguna función que lo requiera.
 
-Antes de una publicación pública en Microsoft Marketplace se debe crear:
-
-- Política de privacidad.
-- Página de soporte.
-- Términos de uso, si aplican.
-- Información de contacto.
-
-## Próximos pasos
-
-- Completar la prueba en Word para Mac.
-- Revisar todos los comentarios y textos.
-- Probar accesibilidad y modo oscuro.
-- Crear documentación para usuarios finales.
-- Crear política de privacidad.
-- Crear página de soporte.
-- Preparar capturas e iconos para Microsoft Marketplace.
-- Publicar EVAText en Microsoft Marketplace.
-
-## Estado del proyecto
-
-EVAText ya fue probado en:
-
-- Word para Windows.
-- Word para la web.
-- GitHub Pages sin depender de `localhost`.
-
 ## Privacidad
 
 Consulta la política de privacidad de EVAText:
 
 https://lauramqu.github.io/EVAText-Web/privacy.html
 
-## Autora y mantenimiento
 
-Repositorio mantenido por `LauraMQu`.
+## Autoría y origen del proyecto
+
+EVAText se basa en un proyecto de investigación orientado al desarrollo de una herramienta para apoyar la retroalimentación y corrección de textos escritos en español académico.
+
+### Autores del proyecto
+
+- **Laura Marcela Quintero Montoya**  
+  lmarcela.quintero@udea.edu.co
+
+- **Ana Luna Pulgarín Arango**  
+  aluna.pulgarin@udea.edu.co
+
+- **María Isabel Marín Morales**  
+  m.i.marin.morales@rug.nl
+
+- **Jorge Mauricio Molina Mejía**  
+  jorge.molina@udea.edu.co
+
+### Afiliación institucional
+
+**Grupo de Estudios Sociolingüísticos**  
+**Facultad de Comunicaciones y Filología**  
+**Universidad de Antioquia**
+
+Calle 70 No. 52-21  
+Medellín, Colombia
+
+## Financiación
+
+El proyecto fue financiado por la convocatoria **ConTIC Investigo** de la Vicerrectoría de Docencia de la Universidad de Antioquia.
+
+## Descripción del proyecto original
+
+EVAText fue concebido inicialmente como un complemento de cinta para Microsoft Word, orientado a incorporar funcionalidades adicionales para apoyar:
+
+- La corrección de trabajos escritos por estudiantes.
+- La retroalimentación en español académico.
+- La productividad de las personas evaluadoras.
+- La organización y aplicación de comentarios frecuentes.
+- La experiencia de uso durante la revisión de textos.
+
+## Desarrollo de la versión web
+
+La versión **EVAText Web** corresponde a una migración del complemento original desarrollado en C# y VSTO hacia un complemento moderno de Office basado en:
+
+- TypeScript.
+- Office.js.
+- HTML y CSS.
+- GitHub Pages.
+
+Esta migración permite ampliar la compatibilidad a Word para Windows, Word para la web y Word para Mac.
+
+### Implementación y mantenimiento de EVAText Web
+
+La migración, adaptación, publicación y mantenimiento técnico de esta versión web están a cargo de:
+
+- **Laura Marcela Quintero Montoya**
+- Usuario de GitHub: `LauraMQu`
+
+Repositorio de la versión web:
+
+https://github.com/LauraMQu/EVAText-Web
+
+Repositorio del proyecto original:
+
+https://github.com/AnaLunaa/EVAText
