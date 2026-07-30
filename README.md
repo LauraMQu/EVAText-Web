@@ -40,7 +40,62 @@ https://github.com/LauraMQu/EVAText-Web
 - Una cuenta de Microsoft que permita instalar o cargar complementos.
 - Para pruebas manuales, el archivo `manifest.xml` de producción.
 
-## Instalación en Word para la web
+[## Instalación de prueba en Word de escritorio para Windows
+
+Mientras EVAText no esté publicado en Microsoft Marketplace, puede instalarse manualmente para pruebas mediante una carpeta compartida de confianza.
+
+La persona usuaria solo necesita el archivo de producción:
+
+```text
+manifest.xml : https://lauramqu.github.io/EVAText-Web/](https://lauramqu.github.io/EVAText-Web/)
+1. Descargar el manifiesto
+Abre el repositorio:
+https://github.com/LauraMQu/EVAText-Web
+Selecciona el archivo manifest.xml.
+Pulsa Download raw file.
+Guarda el archivo en el computador.
+2. Crear una carpeta para el catálogo
+Crea una carpeta, por ejemplo:
+C:\EVAText-Catalogo
+Copia dentro de ella el archivo:
+manifest.xml
+3. Compartir la carpeta
+Haz clic derecho sobre la carpeta EVAText-Catalogo.
+Selecciona Propiedades.
+Abre la pestaña Compartir.
+Pulsa Uso compartido avanzado.
+Marca Compartir esta carpeta.
+Pulsa Permisos.
+Verifica que exista al menos permiso de lectura.
+Copia la ruta de red de la carpeta.
+
+La ruta puede verse así:
+
+\\NOMBRE-DEL-EQUIPO\EVAText-Catalogo
+4. Registrar la carpeta como catálogo de confianza
+Abre Word de escritorio.
+Entra en Archivo → Opciones.
+Selecciona Centro de confianza.
+Pulsa Configuración del Centro de confianza.
+Entra en Catálogos de complementos de confianza.
+En URL del catálogo, pega la ruta compartida.
+Pulsa Agregar catálogo.
+Marca Mostrar en el menú.
+Pulsa Aceptar.
+Cierra Word completamente.
+Abre Word nuevamente.
+5. Agregar EVAText
+Abre un documento en Word.
+Entra en Inicio → Complementos.
+Selecciona Más complementos u Opciones avanzadas.
+Abre la sección Carpeta compartida.
+Selecciona EVAText Web.
+Pulsa Agregar.
+Espera a que aparezca la pestaña EVAText.
+Pulsa Abrir EVAText.
+
+
+## Instalación en Word web
 
 1. Descarga el archivo `manifest.xml` del repositorio.
 2. Abre Word para la web con una cuenta de Microsoft.
@@ -68,7 +123,7 @@ https://github.com/LauraMQu/EVAText-Web
 
 El texto completo del comentario no se muestra en el panel para evitar redundancia. Solo aparece al insertarse en Word.
 
-## Instalación de prueba en Word para Mac
+## Instalación  en Word para Mac
 
 1. Descarga el archivo `manifest.xml`.
 2. Cierra Word.
@@ -86,26 +141,6 @@ El texto completo del comentario no se muestra en el panel para evitar redundanc
 9. Crea o abre un documento.
 10. Busca EVAText en los complementos disponibles.
 11. Abre la pestaña **EVAText** y pulsa **Abrir EVAText**.
-
-## Pruebas recomendadas en Mac
-
-- Que aparezca la pestaña **EVAText**.
-- Que el icono se muestre correctamente.
-- Que el panel lateral abra.
-- Que aparezca el catálogo de comentarios.
-- Que funcione el buscador.
-- Que funcione el filtro por grupo.
-- Que los comentarios se inserten en el texto seleccionado.
-- Que no aparezca ninguna referencia a `localhost`.
-- Que la interfaz sea legible en modo claro y oscuro.
-
-## Desarrollo local
-
-Ruta de trabajo utilizada:
-
-```text
-D:\Laura\Proyectos\EVAText-Web-Completo
-```
 
 ### Instalar dependencias
 
