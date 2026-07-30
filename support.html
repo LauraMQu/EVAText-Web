@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Soporte de EVAText</title>
+
+    <style>
+      :root {
+        font-family: "Segoe UI", Arial, sans-serif;
+        color: #242424;
+        background: #f5f7f6;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        line-height: 1.6;
+      }
+
+      header {
+        padding: 40px 20px;
+        background: #026937;
+        color: white;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0 0 8px;
+      }
+
+      main {
+        max-width: 850px;
+        margin: 30px auto;
+        padding: 30px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 3px 14px rgb(0 0 0 / 8%);
+      }
+
+      h2 {
+        margin-top: 32px;
+        color: #026937;
+      }
+
+      code {
+        padding: 2px 5px;
+        background: #eef2f0;
+        border-radius: 4px;
+      }
+
+      .boton {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 11px 18px;
+        border-radius: 6px;
+        background: #026937;
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .boton:hover {
+        background: #014f2a;
+      }
+
+      footer {
+        padding: 22px;
+        text-align: center;
+        color: #666;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Soporte de EVAText</h1>
+      <p>Ayuda para el complemento de retroalimentación académica de Microsoft Word.</p>
+    </header>
+
+    <main>
+      <h2>¿Qué es EVAText?</h2>
+
+      <p>
+        EVAText es un complemento para Microsoft Word que permite insertar
+        comentarios de retroalimentación académica sobre palabras, oraciones o
+        fragmentos seleccionados.
+      </p>
+
+      <h2>Cómo usar EVAText</h2>
+
+      <ol>
+        <li>Abre un documento de Word.</li>
+        <li>Entra en la pestaña <strong>EVAText</strong>.</li>
+        <li>Pulsa <strong>Abrir EVAText</strong>.</li>
+        <li>Selecciona un fragmento del documento.</li>
+        <li>Busca el comentario que necesitas.</li>
+        <li>Pulsa <strong>Insertar comentario</strong>.</li>
+      </ol>
+
+      <h2>Problemas frecuentes</h2>
+
+      <h3>El comentario no se inserta</h3>
+
+      <p>
+        Comprueba que hayas seleccionado una palabra, oración o fragmento antes
+        de pulsar el botón.
+      </p>
+
+      <h3>El panel no abre</h3>
+
+      <p>
+        Verifica que tengas conexión a Internet. Cierra Word completamente,
+        vuelve a abrirlo e intenta nuevamente.
+      </p>
+
+      <h3>No aparece la pestaña EVAText</h3>
+
+      <p>
+        Revisa que el complemento esté instalado en
+        <strong>Mis complementos</strong>. Algunas cuentas institucionales
+        restringen la instalación de complementos personalizados.
+      </p>
+
+      <h3>Aparece una dirección localhost</h3>
+
+      <p>
+        Esto significa que se instaló un manifiesto de desarrollo. Usa el
+        manifiesto de producción publicado con EVAText.
+      </p>
+
+      <h2>Compatibilidad</h2>
+
+      <p>EVAText está diseñado para funcionar en:</p>
+
+      <ul>
+        <li>Word para Windows.</li>
+        <li>Word para la web.</li>
+        <li>Word para Mac compatible con las API utilizadas.</li>
+      </ul>
+
+      <h2>Solicitar ayuda o informar un error</h2>
+
+      <p>
+        Puedes informar errores, solicitar mejoras o formular preguntas desde
+        el repositorio oficial.
+      </p>
+
+      <a
+        class="boton"
+        href="https://github.com/LauraMQu/EVAText-Web/issues"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Informar un problema
+      </a>
+
+      <h2>Información útil para informar un problema</h2>
+
+      <p>Incluye, cuando sea posible:</p>
+
+      <ul>
+        <li>Versión de Word.</li>
+        <li>Sistema operativo: Windows, macOS o navegador.</li>
+        <li>Navegador utilizado.</li>
+        <li>Descripción de lo que estabas haciendo.</li>
+        <li>Mensaje de error o captura de pantalla.</li>
+        <li>Nombre del comentario que intentabas insertar.</li>
+      </ul>
+
+      <h2>Privacidad</h2>
+
+      <p>
+        EVAText utiliza permisos de lectura y escritura del documento para
+        insertar comentarios. El complemento no está diseñado para recopilar ni
+        enviar el contenido de los documentos a servicios externos.
+      </p>
+
+      <h2>Repositorio</h2>
+
+      <p>
+        <a href="https://github.com/LauraMQu/EVAText-Web">
+          github.com/LauraMQu/EVAText-Web
+        </a>
+      </p>
+    </main>
+
+    <footer>
+      EVAText · Complemento de retroalimentación académica para Microsoft Word
+    </footer>
+  </body>
+</html>
