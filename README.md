@@ -40,7 +40,7 @@ https://github.com/LauraMQu/EVAText-Web
 - Una cuenta de Microsoft que permita instalar o cargar complementos.
 - Para pruebas manuales, el archivo `manifest.xml` de producción.
 
-[## Instalación de prueba en Word de escritorio para Windows
+## Instalación de prueba en Word de escritorio para Windows
 
 Mientras EVAText no esté publicado en Microsoft Marketplace, puede instalarse manualmente para pruebas mediante una carpeta compartida de confianza.
 
