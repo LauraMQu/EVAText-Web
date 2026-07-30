@@ -329,10 +329,11 @@ EVAText ya fue probado en:
 - Word para la web.
 - GitHub Pages sin depender de `localhost`.
 
-Pendiente:
+## Privacidad
 
-- Prueba completa en Word para Mac.
-- Preparación para distribución pública en Microsoft Marketplace.
+Consulta la política de privacidad de EVAText:
+
+https://lauramqu.github.io/EVAText-Web/privacy.html
 
 ## Autora y mantenimiento
 
