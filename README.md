@@ -46,53 +46,49 @@ Mientras EVAText no esté publicado en Microsoft Marketplace, puede instalarse m
 
 La persona usuaria solo necesita el archivo de producción:
 
-```text
-manifest.xml : https://lauramqu.github.io/EVAText-Web/](https://lauramqu.github.io/EVAText-Web/)
 1. Descargar el manifiesto
-Abre el repositorio:
-https://github.com/LauraMQu/EVAText-Web
-Selecciona el archivo manifest.xml.
-Pulsa Download raw file.
-Guarda el archivo en el computador.
+    Abre el repositorio:
+    https://github.com/LauraMQu/EVAText-Web
+    Selecciona el archivo manifest.xml.
+    Pulsa Download raw file.
+    Guarda el archivo en el computador.
 2. Crear una carpeta para el catálogo
-Crea una carpeta, por ejemplo:
-C:\EVAText-Catalogo
-Copia dentro de ella el archivo:
-manifest.xml
+    Crea una carpeta, por ejemplo:
+    C:\EVAText-Catalogo
+    Copia dentro de ella el archivo:
+    manifest.xml
 3. Compartir la carpeta
-Haz clic derecho sobre la carpeta EVAText-Catalogo.
-Selecciona Propiedades.
-Abre la pestaña Compartir.
-Pulsa Uso compartido avanzado.
-Marca Compartir esta carpeta.
-Pulsa Permisos.
-Verifica que exista al menos permiso de lectura.
-Copia la ruta de red de la carpeta.
+    Haz clic derecho sobre la carpeta EVAText-Catalogo.
+    Selecciona Propiedades.
+    Abre la pestaña Compartir.
+    Pulsa Uso compartido avanzado.
+    Marca Compartir esta carpeta.
+    Pulsa Permisos.
+    Verifica que exista al menos permiso de lectura.
+    Copia la ruta de red de la carpeta.
 
-La ruta puede verse así:
-
-\\NOMBRE-DEL-EQUIPO\EVAText-Catalogo
+    La ruta puede verse así:   \\NOMBRE-DEL-EQUIPO\EVAText-Catalogo
 4. Registrar la carpeta como catálogo de confianza
-Abre Word de escritorio.
-Entra en Archivo → Opciones.
-Selecciona Centro de confianza.
-Pulsa Configuración del Centro de confianza.
-Entra en Catálogos de complementos de confianza.
-En URL del catálogo, pega la ruta compartida.
-Pulsa Agregar catálogo.
-Marca Mostrar en el menú.
-Pulsa Aceptar.
-Cierra Word completamente.
-Abre Word nuevamente.
+    Abre Word de escritorio.
+    Entra en Archivo → Opciones.
+    Selecciona Centro de confianza.
+    Pulsa Configuración del Centro de confianza.
+    Entra en Catálogos de complementos de confianza.
+    En URL del catálogo, pega la ruta compartida.
+    Pulsa Agregar catálogo.
+    Marca Mostrar en el menú.
+    Pulsa Aceptar.
+    Cierra Word completamente.
+    Abre Word nuevamente.
 5. Agregar EVAText
-Abre un documento en Word.
-Entra en Inicio → Complementos.
-Selecciona Más complementos u Opciones avanzadas.
-Abre la sección Carpeta compartida.
-Selecciona EVAText Web.
-Pulsa Agregar.
-Espera a que aparezca la pestaña EVAText.
-Pulsa Abrir EVAText.
+    Abre un documento en Word.
+    Entra en Inicio → Complementos.
+    Selecciona Más complementos u Opciones avanzadas.
+    Abre la sección Carpeta compartida.
+    Selecciona EVAText Web.
+    Pulsa Agregar.
+    Espera a que aparezca la pestaña EVAText.
+    Pulsa Abrir EVAText.
 
 
 ## Instalación en Word web
