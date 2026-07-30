@@ -8,7 +8,7 @@
   <Description DefaultValue="Asistente para insertar comentarios de retroalimentación en textos académicos."/>
   <IconUrl DefaultValue="https://lauramqu.github.io/EVAText-Web/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://lauramqu.github.io/EVAText-Web/assets/icon-64.png"/>
-  <SupportUrl DefaultValue="https://github.com/AnaLunaa/EVAText"/>  
+  <SupportUrl DefaultValue="https://lauramqu.github.io/EVAText-Web/support.html"/>  
   <AppDomains>
   <AppDomain>https://github.com</AppDomain>
   <AppDomain>https://lauramqu.github.io</AppDomain>
